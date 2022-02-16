@@ -296,11 +296,19 @@ module.exports = function(webpackEnv) {
         // 'shared': path.resolve(__dirname, '../src/react@16.9.0/packages/shared'),
         // 'react-reconciler': path.resolve(__dirname, '../src/react@16.9.0/packages/react-reconciler'),
 
-        'react': path.resolve(__dirname, '../src/react@17.0.3/packages/react'),
-        'react-dom': path.resolve(__dirname, '../src/react@17.0.3/packages/react-dom'),
-        'legacy-events': path.resolve(__dirname, '../src/react@17.0.3/packages/legacy-events'),
-        'shared': path.resolve(__dirname, '../src/react@17.0.3/packages/shared'),
-        'react-reconciler': path.resolve(__dirname, '../src/react@17.0.3/packages/react-reconciler'),
+        // 'react': path.resolve(__dirname, '../src/react@17.0.3/packages/react'),
+        // 'react-dom': path.resolve(__dirname, '../src/react@17.0.3/packages/react-dom'),
+        // 'legacy-events': path.resolve(__dirname, '../src/react@17.0.3/packages/legacy-events'),
+        // 'shared': path.resolve(__dirname, '../src/react@17.0.3/packages/shared'),
+        // 'react-reconciler': path.resolve(__dirname, '../src/react@17.0.3/packages/react-reconciler'),
+
+
+        'react': path.resolve(__dirname, '../src/react-16.9.0/packages/react'),
+        'react-dom': path.resolve(__dirname, '../src/react-16.9.0/packages/react-dom'),
+        'legacy-events': path.resolve(__dirname, '../src/react-16.9.0/packages/legacy-events'),
+        'shared': path.resolve(__dirname, '../src/react-16.9.0/packages/shared'),
+        'react-reconciler': path.resolve(__dirname, '../src/react-16.9.0/packages/react-reconciler'),
+
         // 'react-events': path.resolve(__dirname, '../src/react/packages/events'),
         // 'scheduler': path.resolve(__dirname, '../src/react/packages/scheduler'),
       },

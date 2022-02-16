@@ -15,7 +15,7 @@
         // 'react-reconciler': path.resolve(__dirname, '../src/react@16.9.0/packages/react-reconciler'),
 ```
 
-## 3、添加最新版react
+## 3、添加最新版react/react-16.9.0(都失败)
 ```
 git clone https://github.com/robin2017/react.git
 ```
